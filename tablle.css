@@ -1,0 +1,47 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.searchBtn{
+    padding: 10px;
+}
+th {
+    height: 50px;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding:5px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: green;
+    transition: background-color 0.6 ease;
+}
+.searchBtn {
+    margin: auto;
+    text-align: center;
+}
